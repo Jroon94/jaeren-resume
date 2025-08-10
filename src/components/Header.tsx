@@ -37,20 +37,20 @@ export default function Header() {
       </div>
       <div className="text-lg text-gray-700 space-y-2">
         <div className="flex items-center space-x-3">
-          <div className="w-5 h-5 flex items-center justify-center">
-            <EmailIcon />
+          <div className="flex items-center justify-center">
+            <EmailIcon className="w-5 h-5" />
           </div>
           <span>{personalData.email}</span>
         </div>
         <div className="flex items-center space-x-3">
-          <div className="w-5 h-5 flex items-center justify-center">
-            <PhoneIcon />
+          <div className="flex items-center justify-center">
+            <PhoneIcon className="w-5 h-5" />
           </div>
           <span>{personalData.phone}</span>
         </div>
         <div className="flex items-center space-x-3">
-          <div className="w-5 h-5 flex items-center justify-center">
-            <LocationIcon />
+          <div className="flex items-center justify-center">
+            <LocationIcon className="w-5 h-5" />
           </div>
           <span>{personalData.location}</span>
         </div>

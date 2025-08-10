@@ -12,14 +12,14 @@ export default function Home() {
     <div className="w-full px-4 mt-8" ref={componentRef}>
       <Header />
       
-      <div className="grid grid-cols-2 gap-8 mt-12">
+      <div className="grid grid-cols-2 gap-4 mt-6">
         <div>
           <h2 className="text-lg font-medium text-core-blue mb-2">LANGUAGE</h2>
           <div className="border-b-2 border-core-blue mb-4"></div>
-          <div className="space-y-2">
+          <div className="space-y-1">
             <div className="flex items-center">
               <span className="text-gray-800 w-20">English</span>
-              <div className="flex space-x-2">
+              <div className="flex space-x-4">
                 <Circle filled />
                 <Circle filled />
                 <Circle filled />
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <div className="flex items-center">
               <span className="text-gray-800 w-20">Malay</span>
-              <div className="flex space-x-2">
+              <div className="flex space-x-4">
                 <Circle filled />
                 <Circle filled />
                 <Circle filled />
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="flex items-center">
               <span className="text-gray-800 w-20">Chinese</span>
-              <div className="flex space-x-2">
+              <div className="flex space-x-4">
                 <Circle filled />
                 <Circle filled />
                 <Circle />
@@ -70,10 +70,10 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="mt-12">
+      <div className="mt-6">
         <h2 className="text-lg font-medium text-core-blue mb-2">SKILLS</h2>
         <div className="border-b-2 border-core-blue mb-4"></div>
-        <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+        <div className="grid grid-cols-3 gap-x-6 gap-y-3">
           {personalData.skills.map((skill, index) => (
             <div key={index}>
               <div className="flex items-center space-x-3">
