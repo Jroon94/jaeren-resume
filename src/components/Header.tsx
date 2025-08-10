@@ -16,44 +16,51 @@ export default function Header() {
           <span className="font-medium">{personalData.lastName}</span>
         </h1>
         <p className="text-xl text-gray-600 mt-2">{personalData.jobTitle}</p>
-        <div className="flex space-x-4 mt-3">
-          <a
-            href={personalData.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-core-blue hover:text-gray-600 transition-colors"
-            title="LinkedIn Profile">
-            <LinkedInIcon />
-          </a>
-          <a
-            href={personalData.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-core-blue hover:text-gray-600 transition-colors"
-            title="GitHub Profile">
-            <GitHubIcon />
-          </a>
-        </div>
+        <p className="text-sm text-gray-600 mt-3 leading-relaxed max-w-md">
+          {personalData.summary}
+        </p>
       </div>
-      <div className="text-lg text-gray-700 space-y-2">
-        <div className="flex items-center space-x-3">
-          <div className="flex items-center justify-center">
-            <EmailIcon className="w-5 h-5" />
+      <div className="text-base text-gray-700 space-y-2">
+        <div className="flex items-center space-x-4">
+          <div className="w-6 flex items-center justify-center">
+            <EmailIcon className="w-6 h-6" />
           </div>
           <span>{personalData.email}</span>
         </div>
-        <div className="flex items-center space-x-3">
-          <div className="flex items-center justify-center">
-            <PhoneIcon className="w-5 h-5" />
+        <div className="flex items-center space-x-4">
+          <div className="w-6 flex items-center justify-center">
+            <PhoneIcon className="w-6 h-6" />
           </div>
           <span>{personalData.phone}</span>
         </div>
-        <div className="flex items-center space-x-3">
-          <div className="flex items-center justify-center">
-            <LocationIcon className="w-5 h-5" />
+        <div className="flex items-center space-x-4">
+          <div className="w-6 flex items-center justify-center">
+            <LocationIcon className="w-6 h-6" />
           </div>
           <span>{personalData.location}</span>
         </div>
+        <a
+          href={personalData.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-4"
+          title="LinkedIn Profile">
+          <div className="w-6 flex items-center justify-center">
+            <LinkedInIcon className="w-5 h-5" />
+          </div>
+          <span>Jae-ren-oon</span>
+        </a>
+        <a
+          href={personalData.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-4"
+          title="GitHub Profile">
+          <div className="w-6 flex items-center justify-center">
+            <GitHubIcon className="w-5 h-5" />
+          </div>
+          <span>Jroon94</span>
+        </a>
       </div>
     </div>
   );

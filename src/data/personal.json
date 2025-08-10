@@ -1,12 +1,62 @@
 {
   "firstName": "JAE REN",
   "lastName": "OON",
-  "email": "jroon94@gmail.com",
+  "email": "Jroon94@gmail.com",
   "phone": "+60 16 236 2487",
   "location": "Kuala Lumpur, Malaysia",
-  "jobTitle": "FULL-STACK SOFTWARE ENGINEER",
+  "jobTitle": "SENIOR FULL-STACK SOFTWARE ENGINEER",
   "linkedin": "https://www.linkedin.com/in/jae-ren-oon/",
   "github": "https://github.com/Jroon94",
+  "summary": "An accomplished developer with 8+ years experience supporting a broad spectrum of clients, from early-stage startups to established enterprises",
+  "experience": [
+    {
+      "title": "Senior Full-Stack Mobile/Web Developer",
+      "company": "Shortcut Asia",
+      "companyUrl": "https://shortcut.my/",
+      "companyDescription": "Fast-paced web/mobile development agency",
+      "duration": "2020 - Present",
+      "description": "Worked with a diverse set of multi-national clients of all sizes on a variety of web/mobile apps, notable examples include:",
+      "projects": [
+        {
+          "name": "Corporate Banking Platform",
+          "client": "Major Southeast Asian Bank",
+          "description": "React Native mobile app for corporate banking services"
+        },
+        {
+          "name": "E-commerce Platform",
+          "client": "Regional Retail Chain",
+          "description": "Full-stack web application with React and Node.js backend"
+        },
+        {
+          "name": "Healthcare Management System",
+          "client": "Healthcare Provider",
+          "description": "Web-based patient management system with real-time updates"
+        }
+      ]
+    },
+    {
+      "title": "Technical Consultant",
+      "company": "AtQuest Solutions",
+      "companyUrl": "https://www.atquest.com/",
+      "companyDescription": "Tech consulting and solutions company",
+      "duration": "2016 - 2019",
+      "description": "Deployed and maintained enterprise e-learning solutions for clients including DBS Bank, Allianz, & Great Eastern Life"
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "Team Q Swim",
+      "companyDescription": "Booking management system for a local swim school",
+      "duration": "2024 - Present",
+      "description": "Single handedly developed full-stack with React Native and the AWS suite (DynamoDB as database). The app allows administrators to CRUD bookings and user profiles, while automatically tracking student attendance for analytics"
+    },
+    {
+      "title": "ShapeLink",
+      "companyDescription": "Mobile puzzle game",
+      "duration": "2019 - 2020",
+      "description": "As a passion project in collaboration with another developer, designed, developed and published a mobile game to the App and Play stores. Implemented an in-game store and advertisements, the game was positively reviewed and ran smoothly."
+    }
+  ],
   "skills": [
     {
       "name": "React Native",
