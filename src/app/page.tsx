@@ -2,6 +2,7 @@
 
 import { useRef } from 'react';
 import Header from '../components/Header';
+import Circle from '../svgs/Circle';
 
 export default function Home() {
   const componentRef = useRef<HTMLDivElement>(null);
@@ -18,31 +19,31 @@ export default function Home() {
             <div className="flex items-center">
               <span className="text-gray-800 w-20">English</span>
               <div className="flex space-x-2">
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
+                <Circle filled />
+                <Circle filled />
+                <Circle filled />
+                <Circle filled />
+                <Circle filled />
               </div>
             </div>
             <div className="flex items-center">
               <span className="text-gray-800 w-20">Malay</span>
               <div className="flex space-x-2">
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-gray-300"></div>
-                <div className="w-4 h-4 rounded-full bg-gray-300"></div>
+                <Circle filled />
+                <Circle filled />
+                <Circle filled />
+                <Circle />
+                <Circle />
               </div>
             </div>
             <div className="flex items-center">
               <span className="text-gray-800 w-20">Chinese</span>
               <div className="flex space-x-2">
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-core-blue"></div>
-                <div className="w-4 h-4 rounded-full bg-gray-300"></div>
-                <div className="w-4 h-4 rounded-full bg-gray-300"></div>
-                <div className="w-4 h-4 rounded-full bg-gray-300"></div>
+                <Circle filled />
+                <Circle filled />
+                <Circle />
+                <Circle />
+                <Circle />
               </div>
             </div>
           </div>
