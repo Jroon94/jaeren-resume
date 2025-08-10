@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import Header from '../components/Header';
 import Circle from '../svgs/Circle';
+import personalData from '../data/personal.json';
 
 export default function Home() {
   const componentRef = useRef<HTMLDivElement>(null);
@@ -11,8 +12,8 @@ export default function Home() {
     <div className="w-full px-4 mt-8" ref={componentRef}>
       <Header />
       
-      <div className="flex mt-12 space-x-22">
-        <div className="flex-1">
+      <div className="grid grid-cols-2 gap-8 mt-12">
+        <div>
           <h2 className="text-lg font-medium text-core-blue mb-2">LANGUAGE</h2>
           <div className="border-b-2 border-core-blue mb-4"></div>
           <div className="space-y-2">
@@ -49,7 +50,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="flex-1">
+        <div>
           <h2 className="text-lg font-medium text-core-blue mb-2">EDUCATION</h2>
           <div className="border-b-2 border-core-blue mb-4"></div>
           <div>
@@ -66,6 +67,32 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      
+      <div className="mt-12">
+        <h2 className="text-lg font-medium text-core-blue mb-2">SKILLS</h2>
+        <div className="border-b-2 border-core-blue mb-4"></div>
+        <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+          {personalData.skills.map((skill, index) => (
+            <div key={index}>
+              <div className="flex items-center space-x-3">
+                {typeof skill === 'object' && skill.icon && (
+                  <img 
+                    src={skill.icon}
+                    alt={`${skill.name} icon`}
+                    className="w-6 h-6 object-contain"
+                  />
+                )}
+                <div>
+                  <div className="text-gray-800 text-sm font-medium">{typeof skill === 'string' ? skill : skill.name}</div>
+                  {typeof skill === 'object' && skill.subtitle && (
+                    <div className="text-gray-600 text-xs">{skill.subtitle}</div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

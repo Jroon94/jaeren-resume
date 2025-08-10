@@ -1,0 +1,57 @@
+{
+  "firstName": "JAE REN",
+  "lastName": "OON",
+  "email": "jroon94@gmail.com",
+  "phone": "+60 16 236 2487",
+  "location": "Kuala Lumpur, Malaysia",
+  "jobTitle": "FULL-STACK SOFTWARE ENGINEER",
+  "linkedin": "https://www.linkedin.com/in/jae-ren-oon/",
+  "github": "https://github.com/Jroon94",
+  "skills": [
+    {
+      "name": "React Native",
+      "subtitle": "Typescript, Nativewind, Expo",
+      "icon": "/react-native-icon.png"
+    },
+    {
+      "name": "React",
+      "subtitle": "Typescript, Tailwind, Next.js",
+      "icon": "/react-icon.svg"
+    },
+    {
+      "name": "Amazon Web Services",
+      "subtitle": "Serverless Framework, DynamoDB, Cognito",
+      "icon": "/aws-icon.svg"
+    },
+    {
+      "name": "Node.js",
+      "subtitle": "Express, NestJS, Prisma, Sequelize",
+      "icon": "/nodejs-icon.svg"
+    },
+    {
+      "name": "Unity",
+      "subtitle": "C#, Python",
+      "icon": "/unity-icon.svg"
+    },
+    {
+      "name": "Firebase",
+      "subtitle": "Firestore, Fastlane, App Distribution",
+      "icon": "/firebase-icon.png"
+    },
+    {
+      "name": "Ruby on Rails",
+      "subtitle": "Webhooks",
+      "icon": "/rails-icon.svg"
+    },
+    {
+      "name": "Native Android",
+      "subtitle": "Java",
+      "icon": "/android-studio-icon.svg"
+    },
+    {
+      "name": "Native iOS",
+      "subtitle": "Obj-C",
+      "icon": "/xcode-icon.svg"
+    }
+  ]
+}
