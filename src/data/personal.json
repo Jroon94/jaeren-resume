@@ -12,25 +12,46 @@
     {
       "title": "Senior Full-Stack Mobile/Web Developer",
       "company": "Shortcut Asia",
-      "companyUrl": "https://shortcut.my/",
+      "companyUrl": "https://shortcut.my",
       "companyDescription": "Fast-paced web/mobile development agency",
       "duration": "2020 - Present",
       "description": "Worked with a diverse set of multi-national clients of all sizes on a variety of web/mobile apps, notable examples include:",
       "projects": [
         {
-          "name": "Corporate Banking Platform",
-          "client": "Major Southeast Asian Bank",
-          "description": "React Native mobile app for corporate banking services"
+          "name": "Kaotim",
+          "url": "https://kaotim.com.my",
+          "client": "Digital insurance platform for Malaysia's 2nd largest insurance provider",
+          "description": "Created the mobile app counterpart for their online insurance platform, with intention to streamline the process of claim submission, and adding additional AI-powered assistance modules"
         },
         {
-          "name": "E-commerce Platform",
-          "client": "Regional Retail Chain",
-          "description": "Full-stack web application with React and Node.js backend"
+          "name": "BonusLink",
+          "url": "https://bonuslink.com.my/home",
+          "client": "Malaysia’s leading consumer rewards programme",
+          "description": "Developed their revamped website, which resulted in significant increase in customer interactions"
         },
         {
-          "name": "Healthcare Management System",
-          "client": "Healthcare Provider",
-          "description": "Web-based patient management system with real-time updates"
+          "name": "Wimyx",
+          "url": "https://www.wimyx.com",
+          "client": "America-based revolutionary audio-video enhancing app",
+          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+        },
+        {
+          "name": "Homeboxx",
+          "url": "https://thehub.io/startups/homeboxx-as",
+          "client": "Norway-based security company",
+          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+        },
+        {
+          "name": "Top Glove",
+          "url": "https://www.topglove.com",
+          "client": "Malaysia’s 3rd largest bank",
+          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+        },
+        {
+          "name": "Top Glove",
+          "url": "https://www.topglove.com",
+          "client": "Malaysia’s 3rd largest bank",
+          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
         }
       ]
     },
@@ -46,15 +67,25 @@
   "personalProjects": [
     {
       "title": "Team Q Swim",
+      "url": "https://github.com/Jroon94/teamqswim",
       "companyDescription": "Booking management system for a local swim school",
       "duration": "2024 - Present",
-      "description": "Single handedly developed full-stack with React Native and the AWS suite (DynamoDB as database). The app allows administrators to CRUD bookings and user profiles, while automatically tracking student attendance for analytics"
+      "description": "Single handedly developed full-stack with React Native and the AWS suite (DynamoDB as database).",
+      "highlights": [
+        "Built comprehensive booking management system with attendance tracking",
+        "Implemented user profile management with role-based access control"
+      ]
     },
     {
       "title": "ShapeLink",
-      "companyDescription": "Mobile puzzle game",
+      "url": "https://play.google.com/store/apps/details?id=com.jroon.shapelink",
+      "companyDescription": "Android/iOS mobile game",
       "duration": "2019 - 2020",
-      "description": "As a passion project in collaboration with another developer, designed, developed and published a mobile game to the App and Play stores. Implemented an in-game store and advertisements, the game was positively reviewed and ran smoothly."
+      "description": "As a passion project and learning experience, designed and developed a mobile puzzle game using Unity and C# scripting.",
+      "highlights": [
+        "Published to both App Store and Google Play Store with positive user reviews",
+        "Implemented in-app purchases and advertisements for monetization"
+      ]
     }
   ],
   "skills": [

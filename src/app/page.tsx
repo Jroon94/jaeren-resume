@@ -46,9 +46,19 @@ export default function Home() {
                           <div className="flex items-start">
                             <span className="text-gray-400 mr-2">•</span>
                             <div>
-                              <span className="text-sm font-medium text-gray-800">
-                                {project.name}
-                              </span>
+                              {(project as any).url ? (
+                                <a
+                                  href={(project as any).url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-sm font-medium text-link-blue underline hover:text-core-blue transition-colors">
+                                  {project.name}
+                                </a>
+                              ) : (
+                                <span className="text-sm font-medium text-gray-800">
+                                  {project.name}
+                                </span>
+                              )}
                               <span className="text-xs text-gray-500 ml-2">
                                 ({project.client})
                               </span>
@@ -85,23 +95,43 @@ export default function Home() {
                 <h3 className="text-lg text-core-blue font-medium">
                   {project.title}
                 </h3>
-                {(project as any).companyUrl ? (
-                  <a
-                    href={(project as any).companyUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-md text-link-blue font-medium underline hover:text-core-blue transition-colors">
-                    {(project as any).company}
-                  </a>
-                ) : (
-                  <span className="text-md text-gray-700 font-medium">
-                    {(project as any).company || 'Personal Project'}
-                  </span>
+                {(project as any).company && (
+                  <>
+                    {(project as any).companyUrl ? (
+                      <a
+                        href={(project as any).companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-md text-link-blue font-medium underline hover:text-core-blue transition-colors">
+                        {(project as any).company}
+                      </a>
+                    ) : (
+                      <span className="text-md text-gray-700 font-medium">
+                        {(project as any).company}
+                      </span>
+                    )}
+                  </>
                 )}
                 <p className="text-xs text-gray-700">
                   {project.companyDescription}
                 </p>
                 <p className="text-sm mt-2">{project.description}</p>
+                {(project as any).highlights && (
+                  <div className="mt-3">
+                    <ul className="space-y-2">
+                      {(project as any).highlights.map((highlight: string, highlightIndex: number) => (
+                        <li key={highlightIndex} className="ml-4">
+                          <div className="flex items-center">
+                            <span className="text-gray-400 mr-2">•</span>
+                            <p className="text-xs text-gray-600">
+                              {highlight}
+                            </p>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
           ))}
