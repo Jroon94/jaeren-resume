@@ -3,6 +3,8 @@
 import { useRef } from 'react';
 import Header from '../components/Header';
 import Circle from '../svgs/Circle';
+import SquareBullet from '../svgs/SquareBullet';
+import TriangleBullet from '../svgs/TriangleBullet';
 import personalData from '../data/personal.json';
 
 export default function Home() {
@@ -38,14 +40,30 @@ export default function Home() {
                   {exp.companyDescription}
                 </p>
                 <p className="text-sm mt-2">{exp.description}</p>
+                {(exp as any).highlights && (
+                  <div className="mt-3">
+                    <ul className="space-y-2">
+                      {(exp as any).highlights.map((highlight: string, highlightIndex: number) => (
+                        <li key={highlightIndex} className="ml-4">
+                          <div className="flex items-start">
+                            <SquareBullet />
+                            <p className="text-xs text-gray-600 ml-2">
+                              {highlight}
+                            </p>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
                 {exp.projects && (
                   <div className="mt-3">
                     <ul className="space-y-2">
                       {exp.projects.map((project, projectIndex) => (
                         <li key={projectIndex} className="ml-4">
                           <div className="flex items-start">
-                            <span className="text-gray-400 mr-2">•</span>
-                            <div>
+                            <SquareBullet />
+                            <div className="ml-2">
                               {(project as any).url ? (
                                 <a
                                   href={(project as any).url}
@@ -59,12 +77,28 @@ export default function Home() {
                                   {project.name}
                                 </span>
                               )}
-                              <span className="text-xs text-gray-500 ml-2">
+                              <span className="text-xs text-gray-700 ml-2">
                                 ({project.client})
                               </span>
-                              <p className="text-xs text-gray-600 mt-1">
+                              <p className="text-xs mt-1">
                                 {project.description}
                               </p>
+                              {(project as any).highlights && (
+                                <div className="mt-2 ml-4">
+                                  <ul className="space-y-1">
+                                    {(project as any).highlights.map((highlight: string, highlightIndex: number) => (
+                                      <li key={highlightIndex}>
+                                        <div className="flex items-start">
+                                          <TriangleBullet />
+                                          <p className="text-xs text-gray-600 ml-2">
+                                            {highlight}
+                                          </p>
+                                        </div>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
                             </div>
                           </div>
                         </li>
@@ -121,9 +155,9 @@ export default function Home() {
                     <ul className="space-y-2">
                       {(project as any).highlights.map((highlight: string, highlightIndex: number) => (
                         <li key={highlightIndex} className="ml-4">
-                          <div className="flex items-center">
-                            <span className="text-gray-400 mr-2">•</span>
-                            <p className="text-xs text-gray-600">
+                          <div className="flex items-start">
+                            <SquareBullet />
+                            <p className="text-xs text-gray-600 ml-2">
                               {highlight}
                             </p>
                           </div>

@@ -21,7 +21,8 @@
           "name": "Kaotim",
           "url": "https://kaotim.com.my",
           "client": "Digital insurance platform for Malaysia's 2nd largest insurance provider",
-          "description": "Created the mobile app counterpart for their online insurance platform, with intention to streamline the process of claim submission, and adding additional AI-powered assistance modules"
+          "description": "Created the mobile app counterpart for their online insurance platform, with focus on streamlining claim submissions and adding AI-powered assistance",
+          "highlights": ["Test"]
         },
         {
           "name": "BonusLink",
@@ -32,26 +33,26 @@
         {
           "name": "Wimyx",
           "url": "https://www.wimyx.com",
-          "client": "America-based revolutionary audio-video enhancing app",
-          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+          "client": "American audio-video enhancing app",
+          "description": "Developed the first iteration of their app, which included a video player with seamless switching between audio tracks, and live streaming"
         },
         {
           "name": "Homeboxx",
           "url": "https://thehub.io/startups/homeboxx-as",
-          "client": "Norway-based security company",
-          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+          "client": "Norwegian security company",
+          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant"
         },
         {
           "name": "Top Glove",
           "url": "https://www.topglove.com",
-          "client": "Malaysia’s 3rd largest bank",
-          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+          "client": "World’s #1 glove manufacturer",
+          "description": "Created a super-app for workforce management with GPS/bluetooth location based task distribution, voice calling, and instant messaging"
         },
         {
-          "name": "Top Glove",
-          "url": "https://www.topglove.com",
-          "client": "Malaysia’s 3rd largest bank",
-          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant."
+          "name": "Oslo Mikrobuldring",
+          "url": "https://shortcut.my/our-work/omb",
+          "client": "Norwegian self-service bouldering gym",
+          "description": "Integrated the Stripe payment gateway with subscription-based models to their mobile app"
         }
       ]
     },
@@ -61,7 +62,10 @@
       "companyUrl": "https://www.atquest.com/",
       "companyDescription": "Tech consulting and solutions company",
       "duration": "2016 - 2019",
-      "description": "Deployed and maintained enterprise e-learning solutions for clients including DBS Bank, Allianz, & Great Eastern Life"
+      "description": "Deployed and maintained enterprise e-learning solutions",
+      "highlights": [
+        "Worked with many large businesses including DBS Bank, Allianz, & Great Eastern Life"
+      ]
     }
   ],
   "personalProjects": [
