@@ -7,7 +7,7 @@
   "jobTitle": "SENIOR FULL-STACK SOFTWARE ENGINEER",
   "linkedin": "https://www.linkedin.com/in/jae-ren-oon/",
   "github": "https://github.com/Jroon94",
-  "summary": "An accomplished developer with 8+ years experience supporting a broad spectrum of clients, from early-stage startups to established enterprises",
+  "summary": "An accomplished developer with 8+ years experience building solutions, augmenting technical teams, and consulting for clients ranging from early-stage startups to established enterprises",
   "experience": [
     {
       "title": "Senior Full-Stack Mobile/Web Developer",
@@ -21,38 +21,43 @@
           "name": "Kaotim",
           "url": "https://kaotim.com.my",
           "client": "Digital insurance platform for Malaysia's 2nd largest insurance provider",
-          "description": "Created the mobile app counterpart for their online insurance platform, with focus on streamlining claim submissions and adding AI-powered assistance",
-          "highlights": ["Test"]
+          "description": "As the lead mobile developer, developed the app counterpart for their online insurance platform - while simultaneously providing support for the web-based version where required. Took initiative to establish best practices in both the codebase and project management processes"
+        },
+        {
+          "name": "RHB Bank",
+          "url": "https://bonuslink.com.my/home",
+          "client": "Malaysia’s leading consumer rewards programme",
+          "description": "Aided in the development and launch of their new internet banking platform, while providing leadership and mentorship for their in-house developers. Alongside development of new features, spearheaded the process of refactoring out-dated legacy code to improve the site's stability and scalability"
         },
         {
           "name": "BonusLink",
           "url": "https://bonuslink.com.my/home",
           "client": "Malaysia’s leading consumer rewards programme",
-          "description": "Developed their revamped website, which resulted in significant increase in customer interactions"
+          "description": "Assisted in the development of their redesigned website, which significantly increased customer interactions post-launch, according to user analytics. To facilitate multiple partnered promotional sites, the app was created as a monorepo (via Turborepo)"
         },
         {
           "name": "Wimyx",
           "url": "https://www.wimyx.com",
           "client": "American audio-video enhancing app",
-          "description": "Developed the first iteration of their app, which included a video player with seamless switching between audio tracks, and live streaming"
+          "description": "Launched the first iteration of their app which allowed users to record videos of concerts, and seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily utilised for many features on this project, and live streaming was briefly implemented as a proof-of-concept for future iterations"
         },
         {
           "name": "Homeboxx",
           "url": "https://thehub.io/startups/homeboxx-as",
           "client": "Norwegian security company",
-          "description": "Assisted in the development and migration of their new internet banking platform while providing leadership and training to the in-house team as a consultant"
+          "description": "Headed the development of their partner mobile app, which was used to remotely activate secure lockboxes. Stepped up to implement OTP generation and SMS integration when the back-end team was preoccupied"
         },
         {
           "name": "Top Glove",
           "url": "https://www.topglove.com",
           "client": "World’s #1 glove manufacturer",
-          "description": "Created a super-app for workforce management with GPS/bluetooth location based task distribution, voice calling, and instant messaging"
+          "description": "Created a super-app for workforce management with GPS/bluetooth location based task distribution, voice calling, and instant messaging. The bluetooth tracking was achieved using beacons which could ping off devices to provide estimated distances"
         },
         {
           "name": "Oslo Mikrobuldring",
           "url": "https://shortcut.my/our-work/omb",
           "client": "Norwegian self-service bouldering gym",
-          "description": "Integrated the Stripe payment gateway with subscription-based models to their mobile app"
+          "description": "As a full-stack developer, integrated the Stripe payment gateway with subscription-based models to their mobile app"
         }
       ]
     },

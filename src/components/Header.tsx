@@ -5,6 +5,7 @@ import PhoneIcon from '../svgs/PhoneIcon';
 import LocationIcon from '../svgs/LocationIcon';
 import LinkedInIcon from '../svgs/LinkedInIcon';
 import GitHubIcon from '../svgs/GitHubIcon';
+import LinkIcon from '../svgs/LinkIcon';
 import personalData from '../data/personal.json';
 
 export default function Header() {
@@ -48,7 +49,7 @@ export default function Header() {
           <div className="w-6 flex items-center justify-center">
             <LinkedInIcon className="w-5 h-5" />
           </div>
-          <span>Jae-ren-oon</span>
+          <span>jae-ren-oon</span>
         </a>
         <a
           href={personalData.github}
@@ -59,7 +60,7 @@ export default function Header() {
           <div className="w-6 flex items-center justify-center">
             <GitHubIcon className="w-5 h-5" />
           </div>
-          <span>Jroon94</span>
+          <span>jroon94</span>
         </a>
       </div>
     </div>
