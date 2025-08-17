@@ -5,7 +5,6 @@ import PhoneIcon from '../svgs/PhoneIcon';
 import LocationIcon from '../svgs/LocationIcon';
 import LinkedInIcon from '../svgs/LinkedInIcon';
 import GitHubIcon from '../svgs/GitHubIcon';
-import LinkIcon from '../svgs/LinkIcon';
 import personalData from '../data/personal.json';
 
 export default function Header() {

@@ -2,10 +2,8 @@
 
 import { useRef } from 'react';
 import Header from '../components/Header';
-import Circle from '../svgs/Circle';
-import SquareBullet from '../svgs/SquareBullet';
-import TriangleBullet from '../svgs/TriangleBullet';
 import personalData from '../data/personal.json';
+import Circle from '../svgs/Circle';
 
 export default function Home() {
   const componentRef = useRef<HTMLDivElement>(null);
@@ -43,16 +41,18 @@ export default function Home() {
                 {(exp as any).highlights && (
                   <div className="mt-3">
                     <ul className="space-y-2">
-                      {(exp as any).highlights.map((highlight: string, highlightIndex: number) => (
-                        <li key={highlightIndex} className="ml-4">
-                          <div className="flex items-start">
-                            <SquareBullet />
-                            <p className="text-xs text-gray-600 ml-2">
-                              {highlight}
-                            </p>
-                          </div>
-                        </li>
-                      ))}
+                      {(exp as any).highlights.map(
+                        (highlight: string, highlightIndex: number) => (
+                          <li
+                            key={highlightIndex}
+                            className="ml-4 flex flex-row">
+                            <div className="flex items-start mr-2">
+                              <Circle filled className="w-1.5 h-1.5 my-1.5" />
+                            </div>
+                            <p className="text-xs">{highlight}</p>
+                          </li>
+                        ),
+                      )}
                     </ul>
                   </div>
                 )}
@@ -60,46 +60,30 @@ export default function Home() {
                   <div className="mt-3">
                     <ul className="space-y-2">
                       {exp.projects.map((project, projectIndex) => (
-                        <li key={projectIndex} className="ml-4">
-                          <div className="flex items-start">
-                            <SquareBullet />
-                            <div className="ml-2">
-                              {(project as any).url ? (
-                                <a
-                                  href={(project as any).url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-sm font-medium text-link-blue underline hover:text-core-blue transition-colors">
-                                  {project.name}
-                                </a>
-                              ) : (
-                                <span className="text-sm font-medium text-gray-800">
-                                  {project.name}
-                                </span>
-                              )}
-                              <span className="text-xs text-gray-700 ml-2">
-                                ({project.client})
+                        <li key={projectIndex} className="ml-4 flex flex-row">
+                          <div className="flex items-start mr-2">
+                            <Circle filled className="w-1.5 h-1.5 my-2.5" />
+                          </div>
+                          <div>
+                            {(project as any).url ? (
+                              <a
+                                href={(project as any).url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm font-medium text-link-blue underline hover:text-core-blue transition-colors">
+                                {project.name}
+                              </a>
+                            ) : (
+                              <span className="text-sm font-medium text-gray-800">
+                                {project.name}
                               </span>
-                              <p className="text-xs mt-1">
-                                {project.description}
-                              </p>
-                              {(project as any).highlights && (
-                                <div className="mt-2 ml-4">
-                                  <ul className="space-y-1">
-                                    {(project as any).highlights.map((highlight: string, highlightIndex: number) => (
-                                      <li key={highlightIndex}>
-                                        <div className="flex items-start">
-                                          <TriangleBullet />
-                                          <p className="text-xs text-gray-600 ml-2">
-                                            {highlight}
-                                          </p>
-                                        </div>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              )}
-                            </div>
+                            )}
+                            <span className="text-xs text-gray-700 ml-2">
+                              ({project.client})
+                            </span>
+                            <p className="text-xs mt-1">
+                              {project.description}
+                            </p>
                           </div>
                         </li>
                       ))}
@@ -153,16 +137,18 @@ export default function Home() {
                 {(project as any).highlights && (
                   <div className="mt-3">
                     <ul className="space-y-2">
-                      {(project as any).highlights.map((highlight: string, highlightIndex: number) => (
-                        <li key={highlightIndex} className="ml-4">
-                          <div className="flex items-start">
-                            <SquareBullet />
-                            <p className="text-xs text-gray-600 ml-2">
-                              {highlight}
-                            </p>
-                          </div>
-                        </li>
-                      ))}
+                      {(project as any).highlights.map(
+                        (highlight: string, highlightIndex: number) => (
+                          <li
+                            key={highlightIndex}
+                            className="ml-4 flex flex-row">
+                            <div className="flex items-center mr-2">
+                              <Circle filled className="w-1.5 h-1.5" />
+                            </div>
+                            <p className="text-xs">{highlight}</p>
+                          </li>
+                        ),
+                      )}
                     </ul>
                   </div>
                 )}

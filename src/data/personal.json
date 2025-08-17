@@ -21,13 +21,13 @@
           "name": "Kaotim",
           "url": "https://kaotim.com.my",
           "client": "Digital insurance platform for Malaysia's 2nd largest insurance provider",
-          "description": "As the lead mobile developer, developed the app counterpart for their online insurance platform - while simultaneously providing support for the web-based version where required. Took initiative to establish best practices in both the codebase and project management processes"
+          "description": "As the lead mobile developer, built the app counterpart for their online insurance platform while providing support for the web-based version when required. Took initiative to establish best practices in both the codebase and project management processes"
         },
         {
           "name": "RHB Bank",
           "url": "https://bonuslink.com.my/home",
-          "client": "Malaysia’s leading consumer rewards programme",
-          "description": "Aided in the development and launch of their new internet banking platform, while providing leadership and mentorship for their in-house developers. Alongside development of new features, spearheaded the process of refactoring out-dated legacy code to improve the site's stability and scalability"
+          "client": "One of the top 5 financial institutions in Malaysia",
+          "description": "Participated in the development leading up to the launch of their new internet banking platform, while spearheading the process of refactoring out-dated legacy code to improve the site's stability and scalability. Additionally, provided leadership and mentorship for their in-house development team"
         },
         {
           "name": "BonusLink",
@@ -39,25 +39,25 @@
           "name": "Wimyx",
           "url": "https://www.wimyx.com",
           "client": "American audio-video enhancing app",
-          "description": "Launched the first iteration of their app which allowed users to record videos of concerts, and seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily utilised for many features on this project, and live streaming was briefly implemented as a proof-of-concept for future iterations"
+          "description": "Launched the first iteration of their app which allowed users to record and upload videos of concerts then seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily utilised for many features on this project, and live streaming was briefly implemented as a proof-of-concept for future iterations"
         },
         {
           "name": "Homeboxx",
           "url": "https://thehub.io/startups/homeboxx-as",
           "client": "Norwegian security company",
-          "description": "Headed the development of their partner mobile app, which was used to remotely activate secure lockboxes. Stepped up to implement OTP generation and SMS integration when the back-end team was preoccupied"
+          "description": "Headed the development of their partner mobile app, which was used to remotely activate secure lockboxes. Additionally, implemented the endpoints and back-end logic for OTP generation and SMS (Via Twilio)"
         },
         {
           "name": "Top Glove",
           "url": "https://www.topglove.com",
           "client": "World’s #1 glove manufacturer",
-          "description": "Created a super-app for workforce management with GPS/bluetooth location based task distribution, voice calling, and instant messaging. The bluetooth tracking was achieved using beacons which could ping off devices to provide estimated distances"
+          "description": "Created a super-app for workforce management with location-based task distribution, voice calling, and instant messaging. The tracking system was achieved using a combination of GPS, Wi-Fi proximity, and bluetooth beacons which could ping off mobile devices to provide accurate distances"
         },
         {
           "name": "Oslo Mikrobuldring",
           "url": "https://shortcut.my/our-work/omb",
           "client": "Norwegian self-service bouldering gym",
-          "description": "As a full-stack developer, integrated the Stripe payment gateway with subscription-based models to their mobile app"
+          "description": "As a full-stack developer, implemented Stripe payment integration with subscription-based models for a mobile application."
         }
       ]
     },
@@ -69,31 +69,34 @@
       "duration": "2016 - 2019",
       "description": "Deployed and maintained enterprise e-learning solutions",
       "highlights": [
-        "Worked with many large businesses including DBS Bank, Allianz, & Great Eastern Life"
+        "Worked with many large corporations including DBS Bank, Allianz, Hartalega & Great Eastern Life",
+        "Hosted training seminars for in-house teams of up to 30 members"
       ]
     }
   ],
   "personalProjects": [
     {
       "title": "Team Q Swim",
-      "url": "https://github.com/Jroon94/teamqswim",
+      "url": "https://www.facebook.com/p/Team-Q-Swimming-Academy-100095621252315/",
       "companyDescription": "Booking management system for a local swim school",
       "duration": "2024 - Present",
-      "description": "Single handedly developed full-stack with React Native and the AWS suite (DynamoDB as database).",
+      "description": "As a full-stack developer, built and deployed this booking and attendance-tracking application independently",
       "highlights": [
-        "Built comprehensive booking management system with attendance tracking",
-        "Implemented user profile management with role-based access control"
+        "Utilised React Native for the front-end, and the AWS suite for the back-end, leveraging DynamoDB as the database",
+        "Implemented user profile management with role-based access control",
+        "Currently curated for administrative use, with a customer facing app planned for future release"
       ]
     },
     {
       "title": "ShapeLink",
-      "url": "https://play.google.com/store/apps/details?id=com.jroon.shapelink",
+      "url": "https://www.youtube.com/watch?v=fdfkOVB-Ip8",
       "companyDescription": "Android/iOS mobile game",
       "duration": "2019 - 2020",
-      "description": "As a passion project and learning experience, designed and developed a mobile puzzle game using Unity and C# scripting.",
+      "description": "Created a mobile puzzle game, pursued as both a passion project and a hands-on learning initiative.",
       "highlights": [
-        "Published to both App Store and Google Play Store with positive user reviews",
-        "Implemented in-app purchases and advertisements for monetization"
+        "Developed using the Unity game engine with C# scripting, and python for the supplementary functions",
+        "Implemented in-app purchases and advertisements for monetization",
+        "Published to both App Store and Google Play Store, and met with positive user reviews"
       ]
     }
   ],
