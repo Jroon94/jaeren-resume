@@ -16,7 +16,7 @@ export default function Header() {
           <span className="font-medium">{personalData.lastName}</span>
         </h1>
         <p className="text-xl text-gray-600 mt-2">{personalData.jobTitle}</p>
-        <p className="text-sm text-gray-600 mt-3 leading-relaxed max-w-md">
+        <p className="text-xs text-gray-600 mt-1 leading-relaxed max-w-md">
           {personalData.summary}
         </p>
       </div>

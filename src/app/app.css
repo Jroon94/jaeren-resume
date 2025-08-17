@@ -3,4 +3,5 @@
 @theme {
   --color-core-blue: oklch(0.3451 0.0693 259.82);
   --color-link-blue: oklch(0.4883 0.1957 261.16);
+  --text-xxs: 0.625rem; 
 }

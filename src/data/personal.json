@@ -7,7 +7,7 @@
   "jobTitle": "SENIOR FULL-STACK SOFTWARE ENGINEER",
   "linkedin": "https://www.linkedin.com/in/jae-ren-oon/",
   "github": "https://github.com/Jroon94",
-  "summary": "An accomplished developer with 8+ years experience building solutions, augmenting technical teams, and consulting for clients ranging from early-stage startups to established enterprises",
+  "summary": "Accomplished developer with 8+ years experience delivering software for clients ranging from startups to established enterprises.",
   "experience": [
     {
       "title": "Senior Full-Stack Mobile/Web Developer",
@@ -15,49 +15,49 @@
       "companyUrl": "https://shortcut.my",
       "companyDescription": "Fast-paced web/mobile development agency",
       "duration": "2020 - Present",
-      "description": "Worked with a diverse set of multi-national clients of all sizes on a variety of web/mobile apps, notable examples include:",
+      "description": "Engaged a diverse set of multi-national clients of all sizes on a variety of web and mobile applications. Notable projects include:",
       "projects": [
         {
           "name": "Kaotim",
           "url": "https://kaotim.com.my",
           "client": "Digital insurance platform for Malaysia's 2nd largest insurance provider",
-          "description": "As the lead mobile developer, built the app counterpart for their online insurance platform while providing support for the web-based version when required. Took initiative to establish best practices in both the codebase and project management processes"
+          "description": "Led mobile development of the app counterpart for Kaotim's online insurance platform while providing support for the web-based version as needed. Took initiative to establish best practices in the codebase and project workflows."
         },
         {
           "name": "RHB Bank",
           "url": "https://bonuslink.com.my/home",
-          "client": "One of the top 5 financial institutions in Malaysia",
-          "description": "Participated in the development leading up to the launch of their new internet banking platform, while spearheading the process of refactoring out-dated legacy code to improve the site's stability and scalability. Additionally, provided leadership and mentorship for their in-house development team"
+          "client": "The 4th largest financial institution in Malaysia",
+          "description": "Contributed to the development leading up to the launch of their new internet banking platform, while spearheading the process of refactoring legacy code to improve the site's stability and scalability. Additionally, provided consultation and mentorship for the in-house development team."
         },
         {
           "name": "BonusLink",
           "url": "https://bonuslink.com.my/home",
           "client": "Malaysia’s leading consumer rewards programme",
-          "description": "Assisted in the development of their redesigned website, which significantly increased customer interactions post-launch, according to user analytics. To facilitate multiple partnered promotional sites, the app was created as a monorepo (via Turborepo)"
+          "description": "Supported the redevelopment of BonusLink's main website and e-commerce platform, which garnered a substantial rise in customer interactions post-launch. To streamline the deployment of partnered promotional sites, the app was implemented with monorepo architecture(via Turborepo)."
         },
         {
           "name": "Wimyx",
           "url": "https://www.wimyx.com",
           "client": "American audio-video enhancing app",
-          "description": "Launched the first iteration of their app which allowed users to record and upload videos of concerts then seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily utilised for many features on this project, and live streaming was briefly implemented as a proof-of-concept for future iterations"
+          "description": "Launched the first iteration of the Wimyx app users could use to record and upload videos of concerts then seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily leveraged for many features on this project, and live streaming was briefly implemented as a proof-of-concept for future iterations."
         },
         {
           "name": "Homeboxx",
           "url": "https://thehub.io/startups/homeboxx-as",
           "client": "Norwegian security company",
-          "description": "Headed the development of their partner mobile app, which was used to remotely activate secure lockboxes. Additionally, implemented the endpoints and back-end logic for OTP generation and SMS (Via Twilio)"
+          "description": "Headed the development of the Homeboxx partner mobile app, which was used to remotely control their properitary lockboxes. Additionally, developed backend infrastructure to facilitate OTP generation and Twilio-powered SMS triggers."
         },
         {
           "name": "Top Glove",
           "url": "https://www.topglove.com",
           "client": "World’s #1 glove manufacturer",
-          "description": "Created a super-app for workforce management with location-based task distribution, voice calling, and instant messaging. The tracking system was achieved using a combination of GPS, Wi-Fi proximity, and bluetooth beacons which could ping off mobile devices to provide accurate distances"
+          "description": "Developed a workforce management super-app, featuring location-based task distribution, voice calling, and instant messaging. The tracking system was achieved using a combination of GPS, Wi-Fi proximity, and bluetooth beacons for precise distance measurements."
         },
         {
           "name": "Oslo Mikrobuldring",
           "url": "https://shortcut.my/our-work/omb",
           "client": "Norwegian self-service bouldering gym",
-          "description": "As a full-stack developer, implemented Stripe payment integration with subscription-based models for a mobile application."
+          "description": "Working as a full-stack developer, implemented Stripe payment integration with subscription-based models for their gym management app, which automates member payments and gym entries."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "companyUrl": "https://www.atquest.com/",
       "companyDescription": "Tech consulting and solutions company",
       "duration": "2016 - 2019",
-      "description": "Deployed and maintained enterprise e-learning solutions",
+      "description": "Deployed and maintained enterprise e-learning solutions.",
       "highlights": [
-        "Worked with many large corporations including DBS Bank, Allianz, Hartalega & Great Eastern Life",
-        "Hosted training seminars for in-house teams of up to 30 members"
+        "Worked with many large corporations including DBS Bank, Allianz, Hartalega & Great Eastern Life.",
+        "Hosted training seminars for in-house teams of up to 30 members."
       ]
     }
   ],
@@ -80,11 +80,11 @@
       "url": "https://www.facebook.com/p/Team-Q-Swimming-Academy-100095621252315/",
       "companyDescription": "Booking management system for a local swim school",
       "duration": "2024 - Present",
-      "description": "As a full-stack developer, built and deployed this booking and attendance-tracking application independently",
+      "description": "As a full-stack developer, built and deployed this booking and attendance-tracking application independently.",
       "highlights": [
-        "Utilised React Native for the front-end, and the AWS suite for the back-end, leveraging DynamoDB as the database",
-        "Implemented user profile management with role-based access control",
-        "Currently curated for administrative use, with a customer facing app planned for future release"
+        "Utilised React Native for the front-end, and the AWS suite for the back-end, leveraging DynamoDB as the database.",
+        "Implemented user profile management with role-based access control.",
+        "Currently curated for administrative use, with a customer facing app planned for future release."
       ]
     },
     {
@@ -94,9 +94,9 @@
       "duration": "2019 - 2020",
       "description": "Created a mobile puzzle game, pursued as both a passion project and a hands-on learning initiative.",
       "highlights": [
-        "Developed using the Unity game engine with C# scripting, and python for the supplementary functions",
-        "Implemented in-app purchases and advertisements for monetization",
-        "Published to both App Store and Google Play Store, and met with positive user reviews"
+        "Developed using the Unity game engine with C# scripting, and python for the supplementary functions.",
+        "Implemented in-app purchases and advertisements for monetization.",
+        "Published to both App Store and Google Play Store, and met with positive user reviews."
       ]
     }
   ],
@@ -128,7 +128,7 @@
     },
     {
       "name": "Firebase",
-      "subtitle": "Firestore, Fastlane, App Distribution",
+      "subtitle": "Firestore, Fastlane",
       "icon": "/firebase-icon.png"
     },
     {
