@@ -7,7 +7,7 @@
   "jobTitle": "SENIOR FULL-STACK SOFTWARE ENGINEER",
   "linkedin": "https://www.linkedin.com/in/jae-ren-oon/",
   "github": "https://github.com/Jroon94",
-  "summary": "Accomplished developer with 8+ years experience delivering software for clients ranging from startups to established enterprises.",
+  "summary": "Accomplished developer with 8+ years of experience delivering software for clients ranging from startups to established enterprises.",
   "experience": [
     {
       "title": "Senior Full-Stack Mobile/Web Developer",
@@ -33,31 +33,31 @@
           "name": "BonusLink",
           "url": "https://bonuslink.com.my/home",
           "client": "Malaysia’s leading consumer rewards programme",
-          "description": "Supported the redevelopment of BonusLink's main website and e-commerce platform, which garnered a substantial rise in customer interactions post-launch. To streamline the deployment of partnered promotional sites, the app was implemented with monorepo architecture(via Turborepo)."
+          "description": "Supported the redevelopment of BonusLink's main website and e-commerce platform, which garnered a substantial rise in customer interactions post-launch. A monorepo architecture(via Turborepo) was utilized to support multiple promotional sister-sites."
         },
         {
           "name": "Wimyx",
           "url": "https://www.wimyx.com",
           "client": "American audio-video enhancing app",
-          "description": "Launched the first iteration of the Wimyx app users could use to record and upload videos of concerts then seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily leveraged for many features on this project, and live streaming was briefly implemented as a proof-of-concept for future iterations."
+          "description": "Launched the first iteration of the Wimyx app, which allowed users to record and upload videos of concerts then seamlessly switch between enhanced and regular audio tracks during playback. FFMPEG was heavily leveraged for many features on this project, and a live streaming feature was prototyped as a proof-of-concept for future iterations."
         },
         {
           "name": "Homeboxx",
           "url": "https://thehub.io/startups/homeboxx-as",
           "client": "Norwegian security company",
-          "description": "Headed the development of the Homeboxx partner mobile app, which was used to remotely control their properitary lockboxes. Additionally, developed backend infrastructure to facilitate OTP generation and Twilio-powered SMS triggers."
+          "description": "Headed the development of the Homeboxx partner mobile app, which was used to remotely control their security lockboxes. Additionally, developed backend infrastructure to facilitate OTP generation and Twilio-powered SMS triggers."
         },
         {
           "name": "Top Glove",
           "url": "https://www.topglove.com",
           "client": "World’s #1 glove manufacturer",
-          "description": "Developed a workforce management super-app, featuring location-based task distribution, voice calling, and instant messaging. The tracking system was achieved using a combination of GPS, Wi-Fi proximity, and bluetooth beacons for precise distance measurements."
+          "description": "Developed a workforce management super-app, featuring location-based task distribution, voice calling, and instant messaging. The tracking system was achieved using a combination of GPS, Wi-Fi proximity, and Bluetooth beacons for precise distance measurements."
         },
         {
           "name": "Oslo Mikrobuldring",
           "url": "https://shortcut.my/our-work/omb",
           "client": "Norwegian self-service bouldering gym",
-          "description": "Working as a full-stack developer, implemented Stripe payment integration with subscription-based models for their gym management app, which automates member payments and gym entries."
+          "description": "Working as a full-stack developer, integrated Stripe payments with subscription-based models for their gym management app, which automates member payments and gym entries."
         }
       ]
     },
@@ -83,8 +83,8 @@
       "description": "As a full-stack developer, built and deployed this booking and attendance-tracking application independently.",
       "highlights": [
         "Utilised React Native for the front-end, and the AWS suite for the back-end, leveraging DynamoDB as the database.",
-        "Implemented user profile management with role-based access control.",
-        "Currently curated for administrative use, with a customer facing app planned for future release."
+        "Included a comprehensive user profile management CRUD with role-based access control.",
+        "Currently tailored for administrative use, with a customer facing app planned for future release."
       ]
     },
     {
@@ -94,7 +94,7 @@
       "duration": "2019 - 2020",
       "description": "Created a mobile puzzle game, pursued as both a passion project and a hands-on learning initiative.",
       "highlights": [
-        "Developed using the Unity game engine with C# scripting, and python for the supplementary functions.",
+        "Developed using the Unity game engine with C# scripting, and Python for the supplementary functions.",
         "Implemented in-app purchases and advertisements for monetization.",
         "Published to both App Store and Google Play Store, and met with positive user reviews."
       ]
