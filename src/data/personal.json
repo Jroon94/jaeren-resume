@@ -104,22 +104,22 @@
     {
       "name": "React Native",
       "subtitle": "Typescript, Nativewind, Expo",
-      "icon": "/assets/images/react-native-icon.png"
+      "icon": "/public/assets/images/react-native-icon.png"
     },
     {
       "name": "React",
       "subtitle": "Typescript, Tailwind, Next.js",
-      "icon": "/assets/svgs/react-icon.svg"
+      "icon": "/public/assets/svgs/react-icon.svg"
     },
     {
       "name": "Amazon Web Services",
       "subtitle": "Serverless Framework, DynamoDB, Cognito",
-      "icon": "/assets/svgs/aws-icon.svg"
+      "icon": "assets/svgs/aws-icon.svg"
     },
     {
       "name": "Node.js",
       "subtitle": "Express, NestJS, Prisma, Sequelize",
-      "icon": "/assets/svgs/nodejs-icon.svg"
+      "icon": "/public/assets/svgs/nodejs-icon.svg"
     },
     {
       "name": "Unity",
