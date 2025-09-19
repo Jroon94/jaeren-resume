@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Circle from '../svgs/Circle';
 import personalData from '../data/personal.json';
 import type { PersonalData } from '../types/personal';
@@ -40,9 +41,11 @@ export default function Sidebar() {
             Bachelor of Computer Science
           </div>
           <div className="flex items-center space-x-4">
-            <img
-              src="/monash-coat-of-arms.png"
+            <Image
+              src="/assets/images/monash-coat-of-arms.png"
               alt="Monash University Coat of Arms"
+              width={24}
+              height={28}
               className="w-6 h-7 object-contain"
             />
             <div>
@@ -65,9 +68,11 @@ export default function Sidebar() {
             <div key={index}>
               <div className="flex items-center space-x-3">
                 {typeof skill === 'object' && skill.icon && (
-                  <img
+                  <Image
                     src={skill.icon}
                     alt={`${skill.name} icon`}
+                    width={24}
+                    height={24}
                     className="w-6 h-6 object-contain"
                   />
                 )}
