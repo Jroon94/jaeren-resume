@@ -1,12 +1,12 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/jaeren-resume' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/jaeren-resume/' : '',
+  basePath: '/jaeren-resume',
+  assetPrefix: '/jaeren-resume/',
 };
 
 export default nextConfig;
