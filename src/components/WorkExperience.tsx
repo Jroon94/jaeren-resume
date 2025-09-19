@@ -2,6 +2,9 @@
 
 import Circle from '../svgs/Circle';
 import personalData from '../data/personal.json';
+import type { PersonalData } from '../types/personal';
+
+const typedPersonalData = personalData as PersonalData;
 
 export default function WorkExperience() {
   return (
@@ -11,7 +14,7 @@ export default function WorkExperience() {
       </h2>
       <div className="border-b-2 border-core-blue mb-4"></div>
       <div className="space-y-4">
-        {personalData.experience.map((exp, index) => (
+        {typedPersonalData.experience.map((exp, index) => (
           <div key={index}>
             <div className="flex justify-between items-start">
               <h3 className="text-lg text-core-blue font-medium">
@@ -32,11 +35,11 @@ export default function WorkExperience() {
               {exp.companyDescription}
             </p>
             <p className="text-sm mt-2 text-justify">{exp.description}</p>
-            {(exp as any).highlights && (
+            {exp.highlights && (
               <div className="mt-3">
                 <ul className="space-y-2">
-                  {(exp as any).highlights.map(
-                    (highlight: string, highlightIndex: number) => (
+                  {exp.highlights.map(
+                    (highlight, highlightIndex) => (
                       <li
                         key={highlightIndex}
                         className="ml-4 flex flex-row">
@@ -59,9 +62,9 @@ export default function WorkExperience() {
                         <Circle filled className="w-1.5 h-1.5 my-2.5" />
                       </div>
                       <div>
-                        {(project as any).url ? (
+                        {project.url ? (
                           <a
-                            href={(project as any).url}
+                            href={project.url}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-sm font-medium text-link-blue underline hover:text-core-blue transition-colors">

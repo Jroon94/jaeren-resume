@@ -2,6 +2,9 @@
 
 import Circle from '../svgs/Circle';
 import personalData from '../data/personal.json';
+import type { PersonalData } from '../types/personal';
+
+const typedPersonalData = personalData as PersonalData;
 
 export default function Sidebar() {
   const languages = [
@@ -58,7 +61,7 @@ export default function Sidebar() {
         <h2 className="text-lg font-bold text-core-blue mb-2">SKILLS</h2>
         <div className="border-b-2 border-core-blue mb-4"></div>
         <div className="space-y-3">
-          {personalData.skills.map((skill, index) => (
+          {typedPersonalData.skills.map((skill, index) => (
             <div key={index}>
               <div className="flex items-center space-x-3">
                 {typeof skill === 'object' && skill.icon && (
