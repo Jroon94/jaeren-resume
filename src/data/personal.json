@@ -104,12 +104,12 @@
     {
       "name": "React Native",
       "subtitle": "Typescript, Nativewind, Expo",
-      "icon": "/public/assets/images/react-native-icon.png"
+      "icon": "assets/images/react-native-icon.png"
     },
     {
       "name": "React",
       "subtitle": "Typescript, Tailwind, Next.js",
-      "icon": "/public/assets/svgs/react-icon.svg"
+      "icon": "assets/svgs/react-icon.svg"
     },
     {
       "name": "Amazon Web Services",
@@ -119,32 +119,32 @@
     {
       "name": "Node.js",
       "subtitle": "Express, NestJS, Prisma, Sequelize",
-      "icon": "/public/assets/svgs/nodejs-icon.svg"
+      "icon": "assets/svgs/nodejs-icon.svg"
     },
     {
       "name": "Unity",
       "subtitle": "C#, Python",
-      "icon": "/assets/svgs/unity-icon.svg"
+      "icon": "assets/svgs/unity-icon.svg"
     },
     {
       "name": "Firebase",
       "subtitle": "Firestore, Fastlane",
-      "icon": "/assets/images/firebase-icon.png"
+      "icon": "assets/images/firebase-icon.png"
     },
     {
       "name": "Ruby on Rails",
       "subtitle": "Webhooks",
-      "icon": "/assets/svgs/rails-icon.svg"
+      "icon": "assets/svgs/rails-icon.svg"
     },
     {
       "name": "Native Android",
       "subtitle": "Java",
-      "icon": "/assets/svgs/android-studio-icon.svg"
+      "icon": "assets/svgs/android-studio-icon.svg"
     },
     {
       "name": "Native iOS",
       "subtitle": "Obj-C",
-      "icon": "/assets/svgs/xcode-icon.svg"
+      "icon": "assets/svgs/xcode-icon.svg"
     }
   ]
 }

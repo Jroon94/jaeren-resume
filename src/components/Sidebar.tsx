@@ -42,7 +42,7 @@ export default function Sidebar() {
           </div>
           <div className="flex items-center space-x-4">
             <Image
-              src="/assets/images/monash-coat-of-arms.png"
+              src="assets/images/monash-coat-of-arms.png"
               alt="Monash University Coat of Arms"
               width={24}
               height={28}
